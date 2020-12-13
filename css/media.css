@@ -1,0 +1,146 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*heder*/
+	.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+	
+		}
+	/*slider*/
+	.slider {
+    background-color: #fcdb00;
+    padding-bottom: 56px;
+	}
+	.s_text {
+    margin-top: 0px;
+	}
+	.s_text h1 {
+    font-size: 26px;
+	}
+	.cid {
+    bottom: -55px;
+	}
+	.cid li {
+    width: 10px;
+    height: 10px;
+	}
+
+/*feature*/
+	.c_pad {
+    padding-top: 50px;
+    padding-bottom: 70px;
+	}
+	.c_mt {
+    margin-top: 30px;
+	}
+	.si_text {
+    text-align: center;
+	}
+	.c_h1 {
+    font-size: 26px;
+
+	}
+	.c_p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+	}
+	/*contact*/
+	.m_tb {
+    margin-top: 25px;
+    margin-bottom: 35px;
+	}
+		/*footer*/
+	footer{
+		padding-bottom: 55px;
+		text-align: center;
+	}
+	.f2{
+		margin-top: 20px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*heder*/
+	.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+	
+		}
+	/*slider*/
+	.s_text {
+    margin-top: 25px;
+	}
+	.cid {
+    bottom: -66px;
+	}
+	.cid li {
+    width: 12px;
+    height: 12px;
+	}
+	/*feature*/
+	.c_pad {
+    padding-top: 50px;
+    padding-bottom: 70px;
+	}
+	.c_mt {
+    margin-top: 55px;
+	}
+	.si_text {
+    text-align: center;
+	}
+	/*contact*/
+	.m_tb {
+    margin-bottom: 40px;
+	}
+	/*footer*/
+	footer{
+		padding-bottom: 80px;
+		text-align: center;
+	}
+	.f2{
+		margin-top: 20px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+		/*heder*/
+	.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+	}
+	/*slider*/
+	.s_text {
+    margin-top: 25px;
+	}
+	.cid li {
+    width: 12px;
+    height: 12px;
+	}
+	/*feature*/
+	.c_pad{
+	padding-top: 70px;
+	padding-bottom: 90px;
+	}
+	
+		
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*EX  Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*EX Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {} 
+

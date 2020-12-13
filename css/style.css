@@ -1,0 +1,198 @@
+/*font-family: 'PT Sans', sans-serif;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+/*header satrt*/
+header{
+	padding:15px 0;
+	background-color: #fcdb00;
+}
+.logo{}
+
+.menu{}
+.menu ul li a{
+	padding: 0 50px !important;
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	transition: .3s;
+	
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+.cid {
+    bottom: -87px;
+
+}
+.cid li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2f2a2a;
+}
+.s_text{
+	margin-top: 70px;
+}
+.s_text h1{
+	margin-bottom: 20px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.s_text h3{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	word-spacing: 7px;
+    letter-spacing: 2px;
+}
+.s_text p{
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #555555;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.c_mt{
+	margin-top: 70px;
+}
+.s_icn li i{
+	margin-right: 35px;
+	font-size: 42px;
+	color: #010101;
+}
+.s_img{}
+.s_img img{}
+/*slider end*/
+/*feature start*/
+.c_pad{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.c_text{
+
+}
+.c_h1{
+	margin-bottom: 15px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.c_p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #4c5766;
+	letter-spacing: 2px;
+    word-spacing: 6px;
+    line-height: 28px;
+}
+.si_icn{
+	font-size: 50px;
+	color: #010101;
+	text-align: center;
+}
+.si_text{
+	margin-top: 6px;
+}
+.si_text h2{
+	margin-bottom:15px; 
+	font-family: 'PT Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #010101;
+}
+.si_text p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+	letter-spacing: 2px;
+    line-height: 22px;
+}
+/*feature end*/
+/*contact start*/
+.contact{
+	background-color: #010101;
+}
+.c_yel{
+	color: #fcdb00;
+}
+.c_pa{
+	color: #898989;
+}
+.m_tb{
+	margin-top: 25px;
+	margin-bottom: 75px;
+}
+.c_email{
+	width: 100%;
+	height: 50px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+.c_email:focus{
+    border-color: #FEFA85;
+    box-shadow: 0 0 0 1px rgb(244 237 5);
+}
+.btn_yellow{
+	width: 100%;
+	height: 50px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #010101;
+	background-color: #fcdb00;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.btn_yellow:hover{
+	background-color: white;
+	color: #fcdb00; 
+
+}
+.social_icn{}
+.social_icn ul li a i{
+	margin: 0 5px;
+	width: 50px;
+    height: 46px;
+    border-radius: 14px;
+	font-size: 42px;
+	color: #010101; 
+	background-color: #fcdb00;
+	transition: .3s;
+}
+
+.social_icn ul li a i:hover{
+	background-color: white;
+}
+/*contact end*/
+/*fotter*/
+footer{
+	background-color: #010101;
+	padding-bottom: 120px;
+}
+.f1,.f2{
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+.f2 a{
+	color: white;
+	text-decoration: none;
+}
